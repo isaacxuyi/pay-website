@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css" crossorigin="">
+    <link rel="stylesheet" href="/assests/home.css">
+    <link rel="stylesheet" href="/assests/card-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <title>home</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <div class="top-header">
+                    <div class="left-side">
+                        <a href="" id="logo">Pay</a>
+                            <div class="searchbarbox">
+                                <i class="ri-search-line searchicon"></i>
+                                <input  type="text" class="searchbar"  placeholder= "search">
+                            </div>  
+                    </div>
+                    <div class="right-side">
+                        <a href="" id="lang-icon">EN</a>
+                        <a href=""><i class="ri-arrow-down-s-line"></i></a>
+                        <i class="ri-notification-2-line"></i>
+                        <img id="pfp" src="/assests/images/Men’s Headshots  Business Headshots  Executive Headshots LinkedIn  Profile Picture.jpeg">
+                    </div>
+                </div>
+            </ul>
+        </nav>
+        
+        <div class="sidebar">
+            <a href="" class="sidebar-margin"><i class="ri-home-4-line icon-properties"></i></a>
+            <a href="" class="sidebar-margin"><i class="ri-mail-line icon-properties"></i></a>
+            <a href="" class="sidebar-margin"><i class="ri-message-2-line icon-properties"></i></a>
+            <a href="" class="sidebar-margin"><i class="ri-user-6-line icon-properties"></i></a>
+            <a href="" class="sidebar-margin"><i class="ri-upload-cloud-2-line icon-properties"></i></a>
+            <a href="" class="sidebar-margin"><i class="ri-settings-4-line icon-properties"></i></a>
+        </div>
+    </header> 
+
+    <div class="body">
+        <div class="body-content">
+                <div class="body-content-left-half">
+                    <div class="left-half-header">
+                        <p id="dashboard-heading">Dashboard</p> <p id="upcoming-payment-header">Upcoming payments</p>
+                    </div>
+                    <div class="inner-left-half">
+                        <div class="card-img  grid-col-span-2" >
+                            <div class="card-header">
+                            <div class="left-side-card-header">
+                            <img src="/assests/images/logo.png" alt="" class="mastercard-logo"> 
+                            <p class="mastercard-text">Master card</p>
+                            </div>
+                            
+                            <img src="/assests/images/chip.png" alt="" class='card-chip'>
+                            
+                            </div>
+                            <div class="card-body-content">
+                                <p id="cardnumbertitle">Card Number</p>
+                                <p id="cardnumber">8050 5040 2030 3020</p>
+                            </div>
+
+                            <div class="card-footer">
+                                <div class="left-side-card-footer">
+                                    <div id="card-name">kumar Shanki</div>
+                                    <div class="card-validation-date"><p id="valid-thru">Valid Thru</p><p id="date">05/25</p></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="salary-box inner-left-half-properties salary-paypal-properties">
+                           <p id="salary-paypal-icon"><i class="ri-suitcase-line"></i></p>
+                           <p id="salary-paypal-text">salary</p>
+                           <p id="income-sources">belong inteactive</p>
+                           <p id="recent-payments">+$2000</p>
+                        </div>
+                        <div class="paypal-box inner-left-half-properties salary-paypal-properties">
+                            <p id="salary-paypal-icon"><i class="ri-paypal-fill"></i></p>
+                           <p id="salary-paypal-text">paypal</p>
+                           <p id="income-sources">Freelance payment</p>
+                           <p id="recent-payments">$45.00</p>
+                            <!-- <div class="salary-paypal-background"> -->
+                                <!-- <i class="ri-paypal-line"></i> -->
+                            <!-- </div> -->
+                        </div>
+                    </div>
+                    <div class="recent-transactions">
+                        <div class="recent-transactions-header">
+                            <div id="recent-transactions-title">Recent transactions</div>
+
+                            <div class="sort-by">
+                                <div class="dropdown">
+                                    <label for="sort-by" id="sort-by-box"><p>sort by</p> 
+                                    <p>
+                                     <a onclick="toggleDropdown()">
+                                        <i class="ri-arrow-down-s-line"></i>
+                                    </a>
+                                    </p>
+                                    <div id="myDropdown" class="dropdown-content">
+                                        <a href="">sort by date modified</a>
+                                        <a href="">sort by A-Z</a>
+                                        <a href="">sort by Z-A</a>
+                                    </div>
+                                    </label>
+                                </div>
+                                </div>
+                   
+                            </div> 
+                    <div id="recent-transactions-content">
+                    <div class="rt-row-content"><div id="rt-icon"><i class="ri-shopping-cart-line"></i></div> <div id="rt-shopping">shipping</div> <div id="rt-date">05 june 2020 10:00</div><div id="rt-price">$3.00</div> <div id="rt-options">:</div></div>
+                    <div class="rt-row-content"><div id="rt-icon"><i class="ri-shopping-basket-line"></i></div> <div id="rt-shopping">shipping</div> <div id="rt-date">05 june 2020 10:00</div><div id="rt-price">$3.00</div> <div id="rt-options">:</div></div>
+                    <div class="rt-row-content"><div id="rt-icon"><i class="ri-bill-line"></i></div> <div id="rt-shopping">shipping</div> <div id="rt-date">05 june 2020 10:00</div><div id="rt-price">$3.00</div> <div id="rt-options">:</div></div>
+                    <div class="rt-row-content"><div id="rt-icon"><i class="ri-car-line"></i></div> <div id="rt-shopping">shipping</div> <div id="rt-date">05 june 2020 10:00</div><div id="rt-price">$3.00</div> <div id="rt-options">:</div></div>
+                     </div>
+                    </div>
+                </div>
+                <div class="body-content-right-half">
+                    <div class="chartbox">
+                        <div class="chart-heading">
+                            <div id="saved-this-month">Saved This Month</div>
+                            <div id="amount-saved">$25,999.00</div>
+                            <div id="chart-timeframe">
+                                <div id="timeframe-day"> Day </div>
+                                <div id="timeframe-week"> Week </div>
+                                <div id="timeframe-month"> Month </div>
+                                <div id="timeframe-year"> Year </div>
+                            </div>
+                        </div>
+                        <canvas id="lineChart" width="550" height="545"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+     
+        </div>
+
+        <script src="/assests/home.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+
+</body>
+</html>

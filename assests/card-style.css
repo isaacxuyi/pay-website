@@ -1,0 +1,63 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+ .mastercard-logo {
+  
+  width: 46px;
+  height: 30px;
+  margin-right: 10px;
+} 
+
+.mastercard-text {
+  color: white;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.card-body-content {
+  color: white;
+  margin-top: 29px;
+}
+
+
+.card-chip {
+  width: 45px;
+  width: 45px;
+}
+
+.left-side-card-header {
+  display: flex;
+  align-items: center;
+}
+
+#cardnumbertitle {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+#cardnumber {
+  margin: 0;
+}
+.left-side-card-footer {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  max-height: 30px;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.left-side-card-footer p {
+  font-size: 12px;
+} 
