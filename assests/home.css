@@ -437,8 +437,6 @@ a {
 .rt-row-content {
     display: flex;
     flex-direction: row;
-    gap: 2rem;
-    justify-content: space-between;
     padding-bottom: 17px;
     padding-top: 17px;
     border-bottom: 1.3px gray solid;
@@ -448,7 +446,13 @@ a {
     font-size: smaller;
 }
 
-#dumb-bell{
-    width: 30px;
-    height: 30px;
+#rt-icon {
+    font-size: 27px;
 }
+
+#rt-purpose{
+    margin-left: 1.2rem;
+    font-weight: 550;
+}
+
+
