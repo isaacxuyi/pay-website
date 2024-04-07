@@ -36,8 +36,7 @@ ul {
 
 body {
     margin: 0;
-    max-zoom: 90%;
-    min-zoom: 90%;
+    overflow-y: hidden;
 }
 
 
@@ -151,6 +150,7 @@ a {
     gap: 1.5rem;
     justify-content: space-between;
     min-width: 1200px;
+   
 }
 
 .left-side {
@@ -185,9 +185,22 @@ a {
     font-weight: bold;
 }
 
+#timeframe-month {
+    color: rgb(22, 22, 22);
+    font-weight: bold;
+    font-size: smaller;
+    font-weight: 600;
+    font-family: 'poppins';
+}
+
+#chart-timeframe div {
+    cursor: pointer;
+}
+
+
 .chartbox {
     width: 550px;
-    height: 545px;
+    height: 580px;
     border: solid;
     border-width: 1px;
     border-radius: 29px;
@@ -439,7 +452,7 @@ a {
     flex-direction: row;
     padding-bottom: 17px;
     padding-top: 17px;
-    border-bottom: 1.3px gray solid;
+    border-bottom: 1px #b9b9b9 solid;
 }
 
 #recent-transactions-content {
@@ -451,8 +464,74 @@ a {
 }
 
 #rt-purpose{
-    margin-left: 1.2rem;
+    margin-left: 1.8rem;
+    margin-right: 7.8rem;
+    font-family: 'poppins';
+    font-weight: 550;
+    width: 120px;
+}
+
+#rt-date {
+    margin-right: 6.3rem;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #b9b9b9;
+    width: 240px;
+
+}
+/* 
+#rt-price {
+    margin-right: 8.8rem;
+    font-family: 'poppins';
     font-weight: 550;
 }
 
+#rt-options {
+    margin-right: 0;
+}
 
+ */
+
+#lineChart {
+
+}
+
+.rt-row-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.rt-price {
+    margin-left: auto; /* Aligns the rt-price to the right */
+}
+
+.rt-row-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.rt-price {
+    margin-left: auto; /* Aligns the rt-price to the right */
+}
+
+.rt-row-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.rt-date {
+    text-align: center; /* Aligns the rt-date to the center */
+}
+
+.rt-price {
+    margin-left: auto; /* Aligns the rt-price to the right */
+}
